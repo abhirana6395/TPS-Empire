@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TPS Empire</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Top Bar -->
+    <div class="bg-blue-900 text-white py-3 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold">TPS Empire</div>
+            <div class="flex items-center space-x-6 text-sm">
+                <div class="flex items-center"><i class="fas fa-phone mr-2"></i><span>+91 9876543210</span></div>
+                <div class="flex items-center"><i class="fas fa-envelope mr-2"></i><span>info@tpsempire.com</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-2xl font-bold text-blue-900">TPS Empire</div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-900 font-medium">Home</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-900 font-medium">Services</a>
+                    <a href="case-studies.html" class="text-gray-700 hover:text-blue-900 font-medium">Case Studies</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-900 font-medium">About Us</a>
+                    <a href="blog.html" class="text-gray-700 hover:text-blue-900 font-medium">Blog</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-900 font-medium">Contact Us</a>
+                    <a href="faq.html" class="text-gray-700 hover:text-blue-900 font-medium">FAQ</a>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Login</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-blue-900">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-900 py-2">Home</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-900 py-2">Services</a>
+                    <a href="case-studies.html" class="text-gray-700 hover:text-blue-900 py-2">Case Studies</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-900 py-2">About Us</a>
+                    <a href="blog.html" class="text-gray-700 hover:text-blue-900 py-2">Blog</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-900 py-2">Contact Us</a>
+                    <a href="faq.html" class="text-gray-700 hover:text-blue-900 py-2">FAQ</a>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg w-full">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Hero -->
+    <section class="relative h-[400px] flex items-center justify-center bg-blue-900">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative z-10 text-center text-white px-4">
+            <h1 class="text-5xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl max-w-2xl mx-auto">Comprehensive business solutions tailored to your needs</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">What We Offer</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Discover our comprehensive range of services designed to drive your business forward
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Business Strategy</h3>
+                    <p class="text-gray-600 mb-4">
+                        Strategic planning and consulting to help your business achieve sustainable growth and competitive advantage.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Market Analysis</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Strategic Planning</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Competitive Intelligence</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Digital Transformation</h3>
+                    <p class="text-gray-600 mb-4">
+                        Transform your business with cutting-edge digital solutions and modern technology implementation.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Digital Strategy</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Technology Integration</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Process Automation</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Management Consulting</h3>
+                    <p class="text-gray-600 mb-4">
+                        Expert guidance to optimize your operations, improve efficiency, and drive organizational excellence.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Operational Excellence</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Change Management</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Performance Optimization</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Marketing Strategy</h3>
+                    <p class="text-gray-600 mb-4">
+                        Comprehensive marketing solutions to enhance your brand visibility and drive customer engagement.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Brand Strategy</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Digital Marketing</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Content Strategy</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Risk Management</h3>
+                    <p class="text-gray-600 mb-4">
+                        Identify and mitigate business risks with comprehensive risk assessment and management strategies.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Risk Assessment</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Compliance Management</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Crisis Management</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Training & Development</h3>
+                    <p class="text-gray-600 mb-4">
+                        Empower your team with professional training programs and skill development initiatives.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Leadership Training</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Skill Development</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Team Building</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Business?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Let's discuss how our services can help you achieve your business goals
+            </p>
+            <button class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                Get a Free Consultation
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">TPS Empire</h3>
+                <p class="text-gray-400 mb-4">Your trusted partner in business excellence</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
