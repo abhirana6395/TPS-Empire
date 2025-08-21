@@ -12,10 +12,29 @@
     <!-- Top Bar -->
     <div class="bg-blue-900 text-white py-3 px-4 sm:px-6 lg:px-8">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="text-xl font-bold">TPS Empire</div>
+            <!-- Left side - Number and Email in same position -->
             <div class="flex items-center space-x-6 text-sm">
-                <div class="flex items-center"><i class="fas fa-phone mr-2"></i><span>+91 9876543210</span></div>
-                <div class="flex items-center"><i class="fas fa-envelope mr-2"></i><span>info@tpsempire.com</span></div>
+                <div class="flex items-center">
+                    <i class="fas fa-phone mr-2"></i>
+                    <span>+91 9876543210</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-envelope mr-2"></i>
+                    <span>info@tpsempire.com</span>
+                </div>
+            </div>
+            
+            <!-- Right side - Icons -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="#" class="text-sky-500 hover:text-sky-600 transition duration-300">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="#" class="text-pink-600 hover:text-pink-700 transition duration-300">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -35,7 +54,7 @@
                     <a href="blog.html" class="text-gray-700 hover:text-blue-900 font-medium">Blog</a>
                     <a href="contact.html" class="text-gray-700 hover:text-blue-900 font-medium">Contact Us</a>
                     <a href="faq.html" class="text-gray-700 hover:text-blue-900 font-medium">FAQ</a>
-                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Login</button>
+                    <a href="consultation.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Free Consultation</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -56,18 +75,28 @@
                     <a href="blog.html" class="text-gray-700 hover:text-blue-900 py-2">Blog</a>
                     <a href="contact.html" class="text-gray-700 hover:text-blue-900 py-2">Contact Us</a>
                     <a href="faq.html" class="text-gray-700 hover:text-blue-900 py-2">FAQ</a>
-                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg w-full">Login</button>
+                    <a href="consultation.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg w-full">Free Consultation</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Case Studies Hero -->
-    <section class="relative h-[400px] flex items-center justify-center bg-blue-900">
-        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div class="relative z-10 text-center text-white px-4">
-            <h1 class="text-5xl font-bold mb-4">Case Studies</h1>
-            <p class="text-xl max-w-2xl mx-auto">Real results from real businesses we've helped transform</p>
+    <!-- Hero Section -->
+    <section class="relative h-[400px] md:h-[400px] h-[200px]">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="case-studies-hero.jpg" alt="Case Studies" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
+        
+        <!-- Overlay Content -->
+        <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold text-white">Our Case Studies</h1>
+                <p class="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
+                    Explore how TPS Empire has helped businesses achieve success.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -233,25 +262,116 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h3 class="text-2xl font-bold mb-4">TPS Empire</h3>
-                <p class="text-gray-400 mb-4">Your trusted partner in business excellence</p>
-                <div class="flex justify-center space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-facebook text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-twitter text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-linkedin text-xl"></i>
-                    </a>
+    <footer class="bg-slate-900 text-gray-300">
+        <!-- Top Section with Tagline -->
+        <div class="border-b border-slate-700">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <p class="text-center text-lg text-gray-400 italic">
+                    "Empowering businesses through innovative digital solutions and strategic transformation"
+                </p>
+            </div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-4">TPS Empire</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Leading digital transformation partner helping businesses achieve exponential growth through cutting-edge technology solutions and strategic consulting.
+                    </p>
+                    <div class="flex space-x-3">
+                        <img src="https://www.citypng.com/public/uploads/preview/hd-visa-payment-logo-png-7017516947777256ndfrewd52.png" alt="Visa" class="h-8 rounded">
+                        <img src="https://www.pngplay.com/wp-content/uploads/12/Visa-Card-Logo-No-Background.png" alt="Mastercard" class="h-8 rounded">
+                        <img src="https://www.citypng.com/public/uploads/preview/transparent-hd-paypal-logo-701751694777788ilpzr3lary.png" alt="PayPal" class="h-8 rounded">
+                        <img src="https://www.pngplay.com/wp-content/uploads/5/American-Express-Logo-PNG-Clipart-Background.png" alt="Amex" class="h-8 rounded">
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="hover:text-blue-400 transition-colors duration-200">Home</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition-colors duration-200">Services</a></li>
+                        <li><a href="case-studies.html" class="hover:text-blue-400 transition-colors duration-200">Case Studies</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400 transition-colors duration-200">About Us</a></li>
+                        <li><a href="blog.html" class="hover:text-blue-400 transition-colors duration-200">Blog</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition-colors duration-200">Contact Us</a></li>
+                        <li><a href="faq.html" class="hover:text-blue-400 transition-colors duration-200">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
+                            <span>123 Business Avenue, Tech District, Mumbai 400001</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-400 mr-3"></i>
+                            <a href="tel:+919876543210" class="hover:text-blue-400 transition-colors duration-200">+91 9876543210</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 mr-3"></i>
+                            <a href="mailto:hello@tps-empire.com" class="hover:text-blue-400 transition-colors duration-200">hello@tps-empire.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock text-blue-400 mr-3"></i>
+                            <span>Mon-Fri: 9:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Follow Us</h4>
+                    <div class="grid grid-cols-2 gap-3">
+                        <a href="#" class="bg-slate-800 hover:bg-blue-600 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-facebook-f text-white text-lg"></i>
+                        </a>
+                        <a href="#" class="bg-slate-800 hover:bg-sky-500 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-twitter text-white text-lg"></i>
+                        </a>
+                        <a href="#" class="bg-slate-800 hover:bg-pink-600 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-instagram text-white text-lg"></i>
+                        </a>
+                        <a href="#" class="bg-slate-800 hover:bg-blue-700 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-linkedin-in text-white text-lg"></i>
+                        </a>
+                        <a href="#" class="bg-slate-800 hover:bg-red-600 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-youtube text-white text-lg"></i>
+                        </a>
+                        <a href="#" class="bg-slate-800 hover:bg-blue-500 p-3 rounded-lg transition-all duration-200 flex items-center justify-center">
+                            <i class="fab fa-telegram-plane text-white text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="bg-slate-800 border-t border-slate-700">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-center md:text-left">
+                        © 2025 TPS Empire. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Cookie Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Sitemap</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+    
+
 
     <script>
         // Mobile menu toggle
